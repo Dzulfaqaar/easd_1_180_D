@@ -9,4 +9,9 @@ using namespace std;
 
 const int MAX_DATA = 47;
 void input(int data[], int n) {
+	cout << "masukkan" << n << "bilangan bulat:\n";
+	for (int i = 0; i < n; i++) {
+		cin >> data[i];
+	}
+}
 	
