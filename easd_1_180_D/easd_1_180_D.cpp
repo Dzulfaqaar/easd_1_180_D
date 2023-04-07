@@ -20,4 +20,11 @@ void input() {
                 cout << "\narray yang anda masukkan maksimal 47 elemen.\n";
 
      }
+    cout << "\n_______________________" << endl;
+    cout << "\nEnter Array element" << endl;
+    cout << " \n______________________" << endl;
+    for (int i = 0; i < n; i++){
+        cout << " Data ke-" << (i + 1) << " : ";
+        cin >> fikri[i];
+    }
 }
