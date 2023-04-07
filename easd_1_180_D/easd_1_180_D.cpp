@@ -16,6 +16,8 @@ void input(int data[], int n) {
 }
 
 void selectionsort(int data[], int n) {
-	
+	for (int FA = 0; FA < n - 1; FA++) {
+		int min_index = FA;
+	}
 }
 	
