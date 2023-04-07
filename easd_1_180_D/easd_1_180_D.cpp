@@ -36,3 +36,9 @@ void swap(int x, int y)
     fikri[x] = fikri[y];
     fikri[y] = temp;
 }
+
+void selectionsort() {
+    int i;
+    int j;
+    int min_idx;
+
