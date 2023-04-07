@@ -23,6 +23,9 @@ void selectionsort(int data[], int n) {
 				min_index = i;
 			}
 		}
+		if (min_index != FA) {
+			swap(data[FA], data[min_index]);
+		}
 	}
 }
 	
