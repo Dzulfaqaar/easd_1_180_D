@@ -7,25 +7,5 @@
 #include <iostream>
 using namespace std;
 
-const int MAX_DATA = 47;
-void input(int data[], int n) {
-	cout << "masukkan" << n << "bilangan bulat:\n";
-	for (int i = 0; i < n; i++) {
-		cin >> data[i];
-	}
-}
-
-void selectionsort(int data[], int n) {
-	for (int FA = 0; FA < n - 1; FA++) {
-		int min_index = FA;
-		for (int i = FA + 1; i < n; i++) {
-			if (data[i] < data[min_index]) {
-				min_index = i;
-			}
-		}
-		if (min_index != FA) {
-			swap(data[FA], data[min_index]);
-		}
-	}
-}
-	
+int fikri[47]; 
+int n;
