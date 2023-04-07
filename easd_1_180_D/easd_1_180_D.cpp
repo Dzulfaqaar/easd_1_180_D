@@ -4,3 +4,8 @@
 // 4. insertion sort karena  ketika mengurutkan data yang ukurannya kecil, insertion sort membutuhkan jumlah iterasi yang relatif sedikit dibandingkan dengan algoritma pengururutan lainnya
 // 5. quadratic (bubble sort, selection sort, insertion sort), loglinear ( merge sort, quick sort) 
 
+#include <iostream>
+using namespace std;
+
+const int MAX_DATA = 47;
+
