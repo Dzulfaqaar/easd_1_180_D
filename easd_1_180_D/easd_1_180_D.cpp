@@ -9,3 +9,7 @@ using namespace std;
 
 int fikri[47]; 
 int n;
+
+void input() {
+    
+    }
