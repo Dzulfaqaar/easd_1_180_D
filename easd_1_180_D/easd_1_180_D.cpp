@@ -38,7 +38,6 @@ void swap(int x, int y)
 }
 
 void selectionsort() {
-    int i;
     int j;
     int min_idx;
 
