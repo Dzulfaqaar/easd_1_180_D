@@ -7,17 +7,17 @@
 #include <iostream>
 using namespace std;
 
-int fikri[47]; 
+int fikri[100]; 
 int n;
 
 void input() {
      while (true) {
          cout << " Masukkan jumlah data array : ";
             cin >> n;
-            if (n <= 47)
+            if (n <= 100)
                 break;
             else
-                cout << "\narray yang anda masukkan maksimal 47 elemen.\n";
+                cout << "\narray yang anda masukkan maksimal 80 elemen.\n";
 
      }
     cout << "\n_______________________" << endl;
@@ -41,4 +41,3 @@ void selectionsort() {
     int i;
     int j;
     int min_idx;
-
