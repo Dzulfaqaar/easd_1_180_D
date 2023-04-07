@@ -44,12 +44,12 @@ void selectionsort() {
 
     for (j = 0; j < n - 2;j++) {
         min_idx = j;
-        for (j = i + 1; j < n - 1; j++) {
+        for (j = j + 1; j < n - 1; j++) {
             min_idx = j;
-            if (fikri[i] < fikri[j])
-                min_idx = i;
+            if (fikri[j] < fikri[j])
+                min_idx = j;
         }
-        if (min_idx = i)
+        if (min_idx = j)
             swap(fikri[j], fikri[min_idx]);
     }
 }
@@ -65,4 +65,14 @@ void display() {
         cout << fikri[j] << "";
     }
     cout << endl;
+}
+
+int main()
+{
+    input();
+    selectionsort();
+    display();
+    system("Pause");
+
+    return 0;
 }
