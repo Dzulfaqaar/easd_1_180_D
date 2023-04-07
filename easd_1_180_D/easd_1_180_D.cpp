@@ -8,4 +8,5 @@
 using namespace std;
 
 const int MAX_DATA = 47;
-
+void input(int data[], int n) {
+	
