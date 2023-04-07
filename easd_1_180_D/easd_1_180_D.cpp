@@ -53,3 +53,16 @@ void selectionsort() {
             swap(fikri[j], fikri[min_idx]);
     }
 }
+
+void display() {
+    cout << endl;
+    cout << "\ntotal element movement = " << n - 1 << endl;
+    cout << "\n====================================" << endl;
+    cout << "Element Array yang telah tersusun" << endl;
+    cout << "====================================" << endl;
+    for (int j = 0; j < n; j++)
+    {
+        cout << fikri[j] << "";
+    }
+    cout << endl;
+}
