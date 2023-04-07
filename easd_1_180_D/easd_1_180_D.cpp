@@ -11,5 +11,13 @@ int fikri[47];
 int n;
 
 void input() {
-    
-    }
+     while (true) {
+         cout << " Masukkan jumlah data array : ";
+            cin >> n;
+            if (n <= 47)
+                break;
+            else
+                cout << "\narray yang anda masukkan maksimal 47 elemen.\n";
+
+     }
+}
