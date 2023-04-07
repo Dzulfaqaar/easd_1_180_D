@@ -41,3 +41,15 @@ void selectionsort() {
     int i;
     int j;
     int min_idx;
+
+    for (j = 0; j < n - 2;j++) {
+        min_idx = j;
+        for (j = i + 1; j < n - 1; j++) {
+            min_idx = j;
+            if (fikri[i] < fikri[j])
+                min_idx = i;
+        }
+        if (min_idx = i)
+            swap(fikri[j], fikri[min_idx]);
+    }
+}
