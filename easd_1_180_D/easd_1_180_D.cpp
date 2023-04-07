@@ -14,4 +14,8 @@ void input(int data[], int n) {
 		cin >> data[i];
 	}
 }
+
+void selectionsort(int data[], int n) {
+	
+}
 	
