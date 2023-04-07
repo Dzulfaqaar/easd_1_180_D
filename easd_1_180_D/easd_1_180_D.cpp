@@ -28,3 +28,11 @@ void input() {
         cin >> fikri[i];
     }
 }
+
+void swap(int x, int y)
+{
+    int temp;
+    temp = fikri[x];
+    fikri[x] = fikri[y];
+    fikri[y] = temp;
+}
